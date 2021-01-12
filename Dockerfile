@@ -5,5 +5,4 @@ RUN npm install
 COPY app .
 EXPOSE 8443
 USER 1000:1000
-CMD [ "npm", "start" ]
-
+CMD [ "npm", "app.js" ]
